@@ -1,0 +1,345 @@
+/**************************************************************************************************
+COMMON HEADER
+***************************************************************************************************/
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+.body {
+  background-color: lightgrey;
+  margin: 0px;
+  background-position: center;
+  background-size: cover;
+  background-color:
+}
+.heading{
+  background-color: #330000;
+  color: white;
+  display: flex;
+}
+.sectionText{
+  background-color: #330000;
+  width: 50%;
+  font-size: 40px;
+  font-family: fantasy;
+  font-weight: 600;
+  padding: 20px;
+  margin-left: 50px;
+  align-items: center;
+}
+.logoText{
+  background-color: #330000;
+  width: 50%;
+  font-size: 20px;
+  line-height: 1.4em;
+  font-family: fantasy;
+  font-weight: 600;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  margin-left: 70px;
+}
+.backHome {
+  margin-left: 10px;
+  margin-top: 10px;
+  radius: 50%;
+}
+.iplogo {
+  position: absolute;
+  margin-top: 17px;
+  margin-left: 50%;
+}
+.iplogo img {
+  top: 15px;
+  border-radius: 5%;
+}
+.iplogo img:hover {
+  transform: rotate(8640deg);
+  transition: 10s;
+  cursor: pointer;
+}
+/*8888888888888888888888888888
+PLACE ORDER
+8888888888888888888888888888*/
+.placeOrder{
+  position: absolute;
+  top: 35px;
+  color: #ffffff;
+  right: 10px;
+  cursor: pointer;
+  background-color: #666666;
+  border: 2px grey solid;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 5px;
+}
+.placeOrder a {
+  text-decoration: none;
+  color: white;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: 500;
+}
+.placeOrder:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+/**************************************************************************************************
+CONTENT SECTION
+***************************************************************************************************/
+.mainSection{
+  background-color: #330000;
+}
+.reviewsField {
+  display: flex;
+  background-color: grey;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.newClients {
+  width: 25%;
+}
+.uiPlaceHolder {
+  display: flex;
+  width: 75%;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #cccccc;
+  height: 100vh;
+  font-family: fantasy;
+  font-weight: 300;
+  font-size: 17px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.clientID{
+  width: 15%;
+  margin: 5px;
+  margin-right: 3px;
+  height: 99vh;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  }
+.clientName {
+  width: 15%;
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 3px;
+  height: 99vh;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  }
+.serviceOffered {
+  width: 20%;
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 3px;
+  height: 99vh;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.message {
+  width: 50%;
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 3px;
+  height: 99vh;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  }
+.newClients {
+  width: 37%;
+  margin: 5px;
+  margin-left: 0px;
+  margin-right: 5px;
+  height: 99vh;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 10px;
+  line-height: 1.6em;
+  border-radius: 5px;
+}
+/* .newClients,
+.inputFields,
+.firstName,
+.email,
+.servicePurchased,
+.textArea1,
+.submitButton {
+
+} */
+.newClients {
+  background-color: #000000;
+  color: white;
+}
+.newClients h4 {
+  padding-top: 10px;
+  color: #336600;
+}
+.firstName, .email, .servicePurchased, .textArea1 {
+  /* margin-top: -5px; */
+  line-height: 1.6em;
+  text-align: left;
+  font-size: 16px;
+  padding: 5px;
+  border: 2px #666666 solid;
+  font-family: fantasy;
+  width: 70%;
+  border-radius: 10px;
+}
+.textArea1 {
+  width: 90%;
+  height: 20%;
+}
+.inputFields {
+  text-align: left;
+  padding: 25px;
+  border: 2px white solid;
+}
+.submitButton {
+  padding: 8px;
+  background-color: green;
+  border: 2px green solid;
+  border-radius: 5px;
+  width: 20%;
+}
+.submitButton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.7s;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************************************************************
+COMMON FOOTER
+***************************************************************************************************/
+
+.bottomBtn{
+  background-color: #663d00;
+  display: flex;
+  margin-top: 0;
+  width: 100%;
+  height: 180px;
+  line-height: 1.6em;
+  font-family: fantasy;
+}
+
+
+.copyright,
+.developers,
+.socialMedia,
+.supporters {
+  width: 22%;
+  margin: 20px 20px;
+  background-color: #663d00;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.copyright b,
+.developers b,
+.socialMedia b,
+.supporters b {
+  border-radius: 50%;
+  width: 40px;
+  color: white;
+  font-family: fantasy;
+  font-size: 18px;
+  background-color: #663d00;
+  text-align: right;
+}
+.copyright img,
+.developers img,
+.socialMedia img,
+.supporters img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 10px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.supporters {
+  margin-right: 0px;
+}
+
+.copyright b {
+  font-family: monospace;
+  font-weight: 300;
+}
+.developers b, .socialMedia b {
+  text-decoration: underline;
+  line-height: 1.6em;
+}

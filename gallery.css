@@ -1,0 +1,289 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+  background-position: center;
+  background-size: cover;
+}
+.heading{
+  background-color: #330000;
+  color: white;
+  display: flex;
+}
+.sectionText{
+  background-color: #330000;
+  width: 50%;
+  font-size: 40px;
+  font-family: fantasy;
+  font-weight: 600;
+  padding: 20px;
+  margin-left: 50px;
+  align-items: center;
+}
+.logoText{
+  background-color: #330000;
+  width: 50%;
+  font-size: 20px;
+  line-height: 1.4em;
+  font-family: fantasy;
+  font-weight: 600;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  margin-left: 70px;
+}
+.backHome {
+  margin-left: 10px;
+  margin-top: 10px;
+  radius: 50%;
+}
+.iplogo {
+  position: absolute;
+  margin-top: 17px;
+  margin-left: 50%;
+}
+.iplogo img {
+  top: 15px;
+  border-radius: 5%;
+}
+.iplogo img:hover {
+  transform: rotate(8640deg);
+  transition: 10s;
+  cursor: pointer;
+}
+
+.searchArea{
+  display: flex;
+  margin-top: 20px;
+  border-radius: 20%;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%, -50%);
+  width: 500px;
+}
+.searchbox{
+  height: 40px;
+  width: 500px;
+  font-size: 15px;
+  font-family: arial;
+  font-weight: 400;
+  padding: 0px 15px;
+  border: 2px grey solid;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.searchTick{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.searchTick:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.generalClasses{
+margin-left: 30px;
+}
+
+.itemLists{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 25px;
+  margin-right: 40px;
+  border-radius: 20px;
+}
+.logos{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+/*8888888888888888888888888888
+PLACE ORDER
+8888888888888888888888888888*/
+.placeOrder{
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  cursor: pointer;
+  border: 2px grey solid;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 5px;
+  background-color: #666666;
+}
+.placeOrder a {
+  text-decoration: none;
+  color: white;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #666666;
+}
+.placeOrder:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+/************************************************************************************************
+LOGOS
+************************************************************************************************/
+.logos h4, .banners h4, .posters h4,
+.cards h4, .flyers h4, .branding h4,
+._3DMockUps h4, .rollUps h4 {
+  text-align: center;
+  background-color: #003333;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.logos img, .banners img, .posters img,
+.cards img, .flyers img, .branding img,
+._3DMockUps img, .rollUps img {
+  width: 170px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+.logos img:hover, .banners img:hover, .posters img:hover,
+.cards img:hover, .flyers img:hover, .branding img:hover,
+._3DMockUps img:hover, .rollUps img:hover {
+  cursor: pointer;
+  transition: 1s;
+  transform: scale(2);
+}
+
+
+/************************************************************************************************
+POSTERS
+************************************************************************************************/
+/* .posters h4 {
+  text-align: center;
+  background-color: #003333;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.posters img {
+  width: 150px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+/
+.posters img:hover {
+  cursor: pointer;
+  transition: 1s;
+  transform: scale(1.8);
+} */
+/************************************************************************************************
+BANNERS
+************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************************************************************************
+COMMON FOOTER
+***************************************************************************************************/
+
+.bottomBtn{
+  position: relative;
+  background-color: #663d00;
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  height: 165px;
+  line-height: 1.6em;
+  font-family: fantasy;
+}
+
+.copyright,
+.developers,
+.socialMedia,
+.supporters {
+  width: 22%;
+  margin: 20px 20px;
+  background-color: #663d00;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.copyright b,
+.developers b,
+.socialMedia b,
+.supporters b {
+  border-radius: 50%;
+  width: 40px;
+  color: white;
+  font-family: fantasy;
+  font-size: 18px;
+  background-color: #663d00;
+  text-align: right;
+}
+.copyright img,
+.developers img,
+.socialMedia img,
+.supporters img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 10px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.supporters {
+  margin-right: 0px;
+}
+
+.copyright b {
+  margin-top: 60px;
+  font-family: monospace;
+  font-weight: 300;
+}
+.developers b, .socialMedia b {
+  text-decoration: underline;
+  line-height: 1.6em;
+}
